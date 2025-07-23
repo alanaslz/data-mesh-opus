@@ -200,10 +200,10 @@ export default function DomainDashboard() {
                     <TableHead>Nome</TableHead>
                     <TableHead>Status</TableHead>
                     <TableHead>Qualidade</TableHead>
-                    <TableHead>Consumidores</TableHead>
+                    <TableHead>Consumid.</TableHead>
                     <TableHead>Downloads</TableHead>
                     <TableHead>Avaliação</TableHead>
-                    <TableHead>Última Atualização</TableHead>
+                    <TableHead>Últ. Atualização</TableHead>
                     <TableHead className="text-right">Ações</TableHead>
                   </TableRow>
                 </TableHeader>
