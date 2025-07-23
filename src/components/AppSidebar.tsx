@@ -24,15 +24,15 @@ import {
 
 const mainItems = [
   { title: "Catálogo de Dados", url: "/", icon: Search },
-  { title: "Publicar Dados", url: "/publish", icon: Upload },
-  { title: "Meus Acessos", url: "/access", icon: ShieldCheck },
-  { title: "Painel do Domínio", url: "/domain", icon: BarChart3 },
+  { title: "Publicar Dados", url: "publish", icon: Upload },
+  { title: "Meus Acessos", url: "access", icon: ShieldCheck },
+  { title: "Painel do Domínio", url: "domain", icon: BarChart3 },
 ];
 
 const adminItems = [
-  { title: "Governança", url: "/governance", icon: Layers },
-  { title: "Usuários", url: "/users", icon: Users },
-  { title: "Configurações", url: "/settings", icon: Settings },
+  { title: "Governança", url: "governance", icon: Layers },
+  { title: "Usuários", url: "users", icon: Users },
+  { title: "Configurações", url: "settings", icon: Settings },
 ];
 
 export function AppSidebar() {
