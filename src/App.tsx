@@ -21,7 +21,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/data-mesh-opus/">
         <Layout>
           <Routes>
             <Route path="/" element={<DataCatalog />} />
