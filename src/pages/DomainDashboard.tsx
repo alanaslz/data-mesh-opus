@@ -200,7 +200,7 @@ export default function DomainDashboard() {
                     <TableHead>Nome</TableHead>
                     <TableHead>Status</TableHead>
                     <TableHead>Qualidade</TableHead>
-                    <TableHead>Consumid.</TableHead>
+                    <TableHead>Cons.</TableHead>
                     <TableHead>Downloads</TableHead>
                     <TableHead>Avaliação</TableHead>
                     <TableHead>Últ. Atualização</TableHead>
