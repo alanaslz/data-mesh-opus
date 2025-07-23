@@ -9,6 +9,12 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
+  build: {
+    // 👇 ESSENCIAL: garantir fallback SPA
+    rollupOptions: {
+      input: "./index.html",
+    },
+  },
   plugins: [
     react(),
     mode === 'development' && componentTagger(),
